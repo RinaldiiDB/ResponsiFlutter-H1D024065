@@ -1,10 +1,10 @@
-# ⛅ Responsi Weather App
+# Responsi Weather App
 
 Aplikasi ramalan cuaca modern berbasis Flutter yang mengimplementasikan arsitektur **Model-View-ViewModel (MVVM)**, integrasi **REST API Open-Meteo** secara real-time, penyimpanan lokal **SharedPreferences**, serta desain antarmuka **Material 3** dengan tipografi **Poppins**.
 
 ---
 
-## 👤 Identitas Mahasiswa
+## Identitas Mahasiswa
 
 | Atribut | Keterangan |
 | :--- | :--- |
@@ -15,15 +15,15 @@ Aplikasi ramalan cuaca modern berbasis Flutter yang mengimplementasikan arsitekt
 
 ---
 
-## 📺 Video Penjelasan Aplikasi
+## Video Penjelasan Aplikasi
 
 Penjelasan lengkap mengenai struktur proyek, integrasi API, arsitektur MVVM, dan bedah kode program dapat disaksikan pada video berikut:
 
-🔗 **Link Video YouTube:** [https://youtu.be/JPGNEXtAZoc](https://youtu.be/JPGNEXtAZoc)
+**Link Video YouTube:** [https://youtu.be/JPGNEXtAZoc](https://youtu.be/JPGNEXtAZoc)
 
 ---
 
-## 📱 Tangkapan Layar (Screenshots)
+## Tangkapan Layar (Screenshots)
 
 Berikut adalah antarmuka aplikasi cuaca yang dapat ditemukan pada direktori `assets/sikirinsut/`:
 
@@ -33,7 +33,7 @@ Berikut adalah antarmuka aplikasi cuaca yang dapat ditemukan pada direktori `ass
 
 ---
 
-## ✨ Fitur-Fitur Aplikasi
+## Fitur-Fitur Aplikasi
 
 1. **Informasi Cuaca Terkini (Real-Time Weather)**
    - Menampilkan nama kota dan wilayah yang sedang aktif.
@@ -46,7 +46,7 @@ Berikut adalah antarmuka aplikasi cuaca yang dapat ditemukan pada direktori `ass
    - **Kelembapan Udara** (`current.relative_humidity_2m` dalam %).
    - **Kecepatan Angin** (`current.wind_speed_10m` dalam km/jam).
    - **Curah Hujan** (`current.precipitation` dalam mm).
-   - **Suhu yang Dirasakan** (`current.apparent_temperature` dalam °C).
+   - **Suhu yang Dirasakan** (`current.apparent_temperature` dalam derajat Celsius).
 
 3. **Perkiraan Cuaca Harian (Daily Forecast)**
    - Menampilkan ramalan cuaca untuk beberapa hari ke depan.
@@ -71,7 +71,7 @@ Berikut adalah antarmuka aplikasi cuaca yang dapat ditemukan pada direktori `ass
 
 ---
 
-## 🏛️ Pola Arsitektur (MVVM Architecture)
+## Pola Arsitektur (MVVM Architecture)
 
 Aplikasi ini menggunakan pola arsitektur **Model-View-ViewModel (MVVM)** dengan state management **Provider**:
 
@@ -126,7 +126,7 @@ lib/
 
 ---
 
-## 🌐 Endpoint API yang Digunakan
+## Endpoint API yang Digunakan
 
 Aplikasi terhubung ke **Open-Meteo API** tanpa memerlukan API Key:
 
@@ -141,7 +141,7 @@ Aplikasi terhubung ke **Open-Meteo API** tanpa memerlukan API Key:
 
 ---
 
-## 🚀 Cara Menjalankan Aplikasi
+## Cara Menjalankan Aplikasi
 
 ### 1. Prasyarat
 - Pastikan telah menginstal **Flutter SDK** (versi 3.16 atau yang lebih baru).
